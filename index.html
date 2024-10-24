@@ -4,6 +4,7 @@
         <style>
             body{
                 margin: 10px;
+                border: 3px solid black;
             }
             table, tr, td{
                 border: 3px solid black;
@@ -14,6 +15,31 @@
                 border: 3px;
                 border-style: solid;
                 width: 100%;
+            }
+
+            .review-box{
+                border-radius: 20px;
+                width: 250px;
+                padding: 20px;
+                margin-top: 50px;
+                font-size: 16px;
+                
+                
+            }
+
+            .reviews-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            padding: 20px;
+            }
+
+
+            .review-box .author {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #ccc;
+            
             }
 
         </style>
@@ -71,5 +97,22 @@
             </tr>
         </table>
 
+        <div style="  border: 3px solid black; border-top: none;">
+            <h1 style="padding-left: 2%;">Reviews from my Teachers</h1>
+            <div class="reviews-container">
+                <div class="review-box">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <div class="author">Jane Doe<br>Assistant Professor</div>
+                </div>
+                <div class="review-box">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <div class="author">Jane Doe<br>Assistant Professor</div>
+                </div>
+                <div class="review-box">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <div class="author">Jane Doe<br>Assistant Professor</div>
+                </div>
+            </div>
+        
     </body>
 </html>
