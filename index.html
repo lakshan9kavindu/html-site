@@ -1,9 +1,25 @@
 <html>
     <head>
         <title>basic html site</title>
+        <style>
+            body{
+                margin: 10px;
+            }
+            table, tr, td{
+                border: 3px solid black;
+                border-collapse: collapse;
+            }
+            table{
+                padding: 10px;
+                border: 3px;
+                border-style: solid;
+                width: 100%;
+            }
+
+        </style>
     </head>
     <body>
-        <header style="padding: 10px; border: 3px; margin: 10px; border-style: solid; padding-bottom: 100;">
+        <header style="padding: 10px; border: 3px;  border-style: solid; padding-bottom: 100;">
             <div>
                     <div style="float: left; padding-left: 2%;">
                         <img src="https://cdn-icons-png.flaticon.com/256/15521/15521087.png" alt="logo" width="70px" >
@@ -15,6 +31,45 @@
                         <a href="#about">Contact</a>
                     </div>
             </div>
+            <div style="text-align: center; padding-top: 10%;">
+                 <h1>Frontend Developer</h1>
+                 <p>html only with proper layout, no styling</p>
+            </div>
         </header>
+        <table>
+            <tr>
+                <td><h3>Projects</h3><br><p>HTML Only portfolio</p></td>
+                <td rowspan="3"><h3>Work Experience</h3><br><h5>roadmap.sh</h5><br><p>Solved all the frontend projects</p><br><a href="https://roadmap.sh/frontend?s=6696144c2b17b182cbfdd861" style="text-decoration: none;">Visit my profile</a></td>
+                <td rowspan="5"><h3>Educatiol</h3><br><p>Graduated with 3.79 out of 4 CGPA. won Acme hackathon. Organized 30 sessions.</p><br><p>Course I took:</p>
+                    <ul style="list-style-type:square;">
+                        <li>object oriented programming</li>
+                        <li>data structures and algorithms</li>
+                        <li>web ebgeering</li>
+                        <li>artificial inteligence</li>
+                        <li>human computer interaction</li>
+                        <li>computer graphics</li>
+                        <li>database management systems</li>
+                        <li>distributed database systems</li>
+                        <li>discreet mathematics</li>
+                    </ul>
+                </td>   
+            </tr>
+            <tr>
+                <td>Calculator</td>
+            </tr>
+            <tr>
+                <td>Quiz App</td>
+                
+            </tr>
+            <tr>
+                <td>Countdown Timer</td>
+                <td rowspan="2.5"><h5>OpenSource Work</h5><br><p>Contribute to 50 opensourse projects. made my own projects with 200 github stars</p><a style="text-decoration: none;" href="https://github.com/lakshan9kavindu/html-site">Visiti my GitHb Profile</a></td>
+
+            </tr>
+            <tr>
+                <td>Product Upcoming Page</td>
+            </tr>
+        </table>
+
     </body>
 </html>
